@@ -1,0 +1,124 @@
+.app-container{
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #970d1a,#4e204d);
+}
+.top-header{
+  height: 50px;
+  background-color: #970d1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.top-header h1{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.time-score-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 28px;
+}
+.timer-icon{
+  color: #ffffff;
+  margin-right: 5px;
+}
+.time-title{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.score-title{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.bottom-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+  min-height: 500px;
+}
+.bottom-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.main-image{
+  height: 300px;
+  width: 530px;
+  border-radius: 6px;
+}
+.list-container{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.image-container{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 120px;
+}
+.game-over-card{
+  width: 550px;
+  height: 650px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  border-radius: 5px;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-img{
+  width: 60%;
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+.your-score-card{
+  color: #ffffff; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.your-score-card > h1{
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.your-score-card > span{
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 5px;
+}
+.game-over-card button{
+  display: flex;
+  align-items: center;
+  padding: 8px 14px 8px 10px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #aa31a8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.replay-icon{
+  margin-right: 5px;
+}
